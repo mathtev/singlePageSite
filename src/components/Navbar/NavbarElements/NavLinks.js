@@ -44,7 +44,7 @@ const NavLinksWrapper = styled.ul`
     align-items: center;
   }
 
-  @media screen and (max-width: 1224px) {
+  @media screen and (max-width: 1200px) {
     flex-direction: column;
     li {
       padding: 12px;
@@ -60,7 +60,7 @@ export const NavLink = styled(Link)`
   span {
     
     font-size: 24px;
-    color: var(--colorPrimary);
+    
   }
 
   &.is-active {

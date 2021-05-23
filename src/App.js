@@ -1,14 +1,12 @@
 import { HashRouter as Router } from 'react-router-dom';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
+import Layout from './components/Layout';
 import { GlobalStyle } from './globalStyle';
 
 function App() {
   return (
     <Router>
       <GlobalStyle />
-      <Navbar />
-      <Hero />
+      <Layout />
     </Router>
   );
 }

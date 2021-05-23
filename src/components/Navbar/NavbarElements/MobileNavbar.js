@@ -26,7 +26,7 @@ const MobileNav = styled.nav`
   align-items: center;
   transition: 0.3s ease-in-out;
   right: ${({ menuOpen }) => (menuOpen ? '0' : '-350px')};
-  @media screen and (min-width: 1224px) {
+  @media screen and (min-width: 1200px) {
     display: none;
   }
 `;

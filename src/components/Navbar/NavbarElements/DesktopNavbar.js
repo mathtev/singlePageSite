@@ -2,14 +2,13 @@ import React from 'react';
 import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 import NavLinks from './NavLinks';
-
-import ellipseImg from '../../../assets/images/Ellipse 2.svg';
+import Icon from '../../Icon/Icon';
 
 const DesktopNavbar = () => {
   return (
     <Nav>
       <Link to="/" className="logo">
-        <img src={ellipseImg} alt="eclipse" />
+        <Icon glyph="ellipse" />
         <div className="logoText">
           <span>Medli</span>
           <div></div>
@@ -26,13 +25,13 @@ const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  position: absolute;
   top: 27px;
   left: 0;
   width: 100%;
   height: 55px;
   padding: 0 11.8%;
-  @media screen and (max-width:1224px) {
+  @media screen and (max-width: 1200px) {
     padding: 0 24px;
   }
   .logo {
@@ -40,6 +39,9 @@ const Nav = styled.nav`
     display: flex;
     align-items: flex-end;
 
+    img {
+      width: 56px;
+    }
     .logoText {
       position: relative;
       margin-left: 15px;
@@ -50,8 +52,6 @@ const Nav = styled.nav`
       span {
         font-size: 40px;
         font-family: var(--fontSecondary);
-        color: var(--colorPrimary);
-        font-weight: bold;
       }
       div {
         position: absolute;
@@ -65,7 +65,7 @@ const Nav = styled.nav`
     }
   }
   .nav-links {
-    @media screen and (max-width:1224px) {
+    @media screen and (max-width: 1200px) {
       display: none;
     }
   }

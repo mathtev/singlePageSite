@@ -28,7 +28,7 @@ const StyledBurger = styled.button`
   top: 48px;
   height: ${({ open }) => (open ? '30px' : '17px')};
 
-  @media screen and (min-width:1224px) {
+  @media screen and (min-width:1200px) {
     display: none;
   }
 
