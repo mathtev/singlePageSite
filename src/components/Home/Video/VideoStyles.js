@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   background-color: var(--colorSecondary);
   text-align: center;
   padding: 0 100px;
+  position: relative;
 
   @media screen and (max-width: 992px) {
     text-align: left;
@@ -15,9 +16,18 @@ export const Wrapper = styled.div`
 `;
 
 export const PlayerWrap = styled.div`
-  width: 100%;
-  width: 100%;
   height: 38vw;
+  position: absolute;
+  bottom: -23%;
+  left: 24px;
+  right: 24px;
+
+  @media screen and (max-width: 992px) {
+    bottom: -25%;
+  }
+  @media screen and (max-width: 660px) {
+    bottom: -17%;
+  }
 
   div {
     border-radius: 8px;
