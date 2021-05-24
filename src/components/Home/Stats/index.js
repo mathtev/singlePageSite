@@ -1,22 +1,15 @@
 import React from 'react';
-
-import {Wrapper, Stat, StatValue, StatDescription} from './StatsElements.js';
+import Stat from './StatsElements/Stat.js';
+import {
+  Wrapper
+} from './StatsElements/StatsElements.js';
 
 const Stats = () => {
   return (
     <Wrapper>
-      <Stat>
-        <StatValue>230+</StatValue>
-        <StatDescription>Scientifically based tests</StatDescription>
-      </Stat>
-      <Stat>
-        <StatValue>10.000+</StatValue>
-        <StatDescription>Medical recommendations</StatDescription>
-      </Stat>
-      <Stat>
-        <StatValue>25M+</StatValue>
-        <StatDescription>Students learning</StatDescription>
-      </Stat>
+      <Stat value={'230+'} desc={'Scientifically based tests'} />
+      <Stat value={'10.000+'} desc={'Medical recommendations'} />
+      <Stat value={'25M+'} desc={'Students learning'} />
     </Wrapper>
   );
 };
