@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Card = ({id, image, alt, title, desc }) => {
+const Card = ({image, alt, title, desc }) => {
   return (
-    <CardWrap key={id}>
+    <CardWrap>
       <img src={image} alt={alt} />
       <h4>{title}</h4>
       <p>{desc}</p>

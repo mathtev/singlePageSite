@@ -15,7 +15,7 @@ const Offers = () => {
       <OffersWrap>
         {offersData.map((offer) => (
           <Card
-            id={offer.id}
+            key={offer.id}
             image={offer.img}
             alt={offer.alt}
             title={offer.title}

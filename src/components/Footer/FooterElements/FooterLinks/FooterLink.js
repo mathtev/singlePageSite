@@ -5,8 +5,8 @@ const FooterLink = ({ title , items }) => {
   return (
     <FooterUl>
       <header>{title}</header>
-      {items.map((item) => (
-        <FooterLi>
+      {items.map((item, idx) => (
+        <FooterLi key={idx}>
           <a href="/">{item}</a> 
           {/* <a href={'/' + title}>{item}</a> */}
         </FooterLi>

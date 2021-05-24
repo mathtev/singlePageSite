@@ -18,7 +18,7 @@ export const ContentWrap = styled.div`
   @media screen and (max-width: 1200px) {
     flex-direction: column-reverse;
 
-    div:nth-child(2) {
+    >div:nth-child(2) {
       margin-bottom: 50px;
     }
   }
