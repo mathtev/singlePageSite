@@ -1,13 +1,8 @@
 import React from 'react';
+import CardWrap from './OffersElements/Card';
 
 import { offersData } from './offersData';
-import {
-  Card,
-  OffersWrap,
-  OffersP,
-  OffersH1,
-  Wrapper
-} from './OffersElements';
+import { OffersWrap, OffersP, OffersH1, Wrapper } from './OffersElements/OffersElements';
 
 const Offers = () => {
   return (
@@ -19,11 +14,13 @@ const Offers = () => {
       </OffersP>
       <OffersWrap>
         {offersData.map((offer) => (
-          <Card key={offer.id}>
-            <img src={offer.img} alt={offer.alt} />
-            <h4>{offer.title}</h4>
-            <p>{offer.desc}</p>
-          </Card>
+          <CardWrap
+            id={offer.id}
+            image={offer.img}
+            alt={offer.alt}
+            title={offer.title}
+            desc={offer.desc}
+          />
         ))}
       </OffersWrap>
     </Wrapper>
