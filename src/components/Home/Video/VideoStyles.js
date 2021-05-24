@@ -16,14 +16,16 @@ export const Wrapper = styled.div`
 `;
 
 export const PlayerWrap = styled.div`
-  height: 38vw;
+  height: 45vw;
   position: absolute;
   bottom: -23%;
-  left: 24px;
-  right: 24px;
+  left: 100px;
+  right: 100px;
 
   @media screen and (max-width: 992px) {
     bottom: -25%;
+    left: 24px;
+    right: 24px;
   }
   @media screen and (max-width: 660px) {
     bottom: -17%;
