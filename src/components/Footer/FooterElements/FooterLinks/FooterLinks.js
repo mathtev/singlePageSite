@@ -9,7 +9,9 @@ const FooterLinks = () => {
         title="Product"
         items={['Updates', 'Security', 'Chrome Extension']}
       />
-      <FooterLink title="Company" items={['About', 'Blog', 'Join Us']} />
+      <FooterLink 
+        title="Company" items={['About', 'Blog', 'Join Us']} 
+      />
       <FooterLink
         title="Help"
         items={['Support Docs', 'API Docs', 'System Status']}
@@ -28,4 +30,3 @@ export const LinksWrap = styled.div`
     margin: 0;
   }
 `;
-
