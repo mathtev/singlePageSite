@@ -16,9 +16,9 @@ export const Wrapper = styled.div`
 `;
 
 export const PlayerWrap = styled.div`
-  height: 45vw;
+  height: 40vw;
   position: absolute;
-  bottom: -28%;
+  bottom: -30%;
   left: 100px;
   right: 100px;
 
