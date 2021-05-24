@@ -6,7 +6,7 @@ import {
   FooterTerms,
 } from './FooterElements/FooterElements';
 import FooterInput from './FooterElements/FooterInput';
-import FooterLinks from './FooterElements/FooterLinks';
+import FooterLinks from './FooterElements/FooterLinks/FooterLinks';
 
 const Footer = () => {
   return (
