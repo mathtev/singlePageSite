@@ -4,7 +4,7 @@ import {
   Wrapper,
   ContentWrap,
   FooterTerms,
-} from './FooterElements/FooterElements';
+} from './FooterElements/FooterStyles';
 import FooterInput from './FooterElements/FooterInput';
 import FooterLinks from './FooterElements/FooterLinks/FooterLinks';
 

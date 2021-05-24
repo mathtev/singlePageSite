@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { offersData } from './offersData';
-import { OffersWrap, OffersP, OffersH1, Wrapper } from './OffersElements/OffersElements';
+import { OffersWrap, OffersP, OffersH1, Wrapper } from './OffersElements/OffersStyles';
 import Card from './OffersElements/Card';
 
 const Offers = () => {

@@ -2,7 +2,7 @@ import React from 'react';
 import Stat from './StatsElements/Stat.js';
 import {
   Wrapper
-} from './StatsElements/StatsElements.js';
+} from './StatsElements/StatsStyles.js';
 
 const Stats = () => {
   return (

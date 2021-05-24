@@ -6,7 +6,7 @@ import {
   HeroImg,
   HeroP,
   LeftSection,
-} from './HeroElements';
+} from './HeroStyles';
 
 import heroImg from '../../../assets/images/hero img.svg';
 import Icon from '../../Icon/Icon';

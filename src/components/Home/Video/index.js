@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import { Wrapper, VideoH1, VideoP, PlayerWrap } from './VideoElements';
+import { Wrapper, VideoH1, VideoP, PlayerWrap } from './VideoStyles';
 import playImg from '../../../assets/images/Play.png'
 import womanImg from '../../../assets/images/woman.png'
 
