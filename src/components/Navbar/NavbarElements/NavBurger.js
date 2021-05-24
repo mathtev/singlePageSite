@@ -13,7 +13,7 @@ const Burger = ({ open, setOpen }) => {
 export default Burger;
 
 const StyledBurger = styled.button`
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -23,7 +23,6 @@ const StyledBurger = styled.button`
   cursor: pointer;
   padding: 0;
   z-index: 999;
-  position: absolute !important;
   right: 24px;
   top: 48px;
   height: ${({ open }) => (open ? '30px' : '17px')};

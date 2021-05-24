@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  padding: 0 16.5% 307px;
+  padding: 0 16.5% 219px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -52,5 +52,6 @@ export const StatDescription = styled.p`
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-  padding: 0 3rem;
+  padding: 16px 3rem;
+  text-align: center;
 `;

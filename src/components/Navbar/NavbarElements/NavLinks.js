@@ -24,7 +24,9 @@ const NavLinks = () => {
         </li>
       ))}
       <li>
-        <NavLink to={`/login`} className="login link"><span>Log in</span></NavLink>
+        <NavLink to={`/login`} className="login link" onClick={closeMenu}>
+          <span>Log in</span>
+        </NavLink>
       </li>
     </NavLinksWrapper>
   );
@@ -58,9 +60,7 @@ export const NavLink = styled(Link)`
   text-decoration: none;
 
   span {
-    
     font-size: 24px;
-    
   }
 
   &.is-active {
