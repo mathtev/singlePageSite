@@ -25,7 +25,7 @@ export const OffersP = styled(TextP)`
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 30% 166px 114px;
+  padding: 25% 166px 114px;
 
   @media screen and (max-width: 600px) {
     padding: 137px 24px 64px;
