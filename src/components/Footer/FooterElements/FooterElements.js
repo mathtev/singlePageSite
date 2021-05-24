@@ -29,9 +29,10 @@ export const FooterTerms = styled.div`
   margin-top: 80px;
   text-align: right;
 
-  p {
+  a {
     color: #E5E5E5;
     padding-top: 16px;
+    text-decoration: none;
   }
 
   hr {

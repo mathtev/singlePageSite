@@ -18,7 +18,7 @@ const Footer = () => {
       </ContentWrap>
       <FooterTerms>
         <hr />
-        <p>Terms & Conditions </p>
+        <a href="/">Terms & Conditions </a>
       </FooterTerms>
     </Wrapper>
   );
