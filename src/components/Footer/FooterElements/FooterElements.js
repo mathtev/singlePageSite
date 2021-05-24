@@ -31,13 +31,13 @@ export const FooterTerms = styled.div`
 
   a {
     color: #E5E5E5;
-    padding-top: 16px;
     text-decoration: none;
   }
 
   hr {
     background: #FFFFFF;
     opacity: 0.2;
+    margin-bottom: 16px;
   }
 
   @media screen and (max-width: 660px) {
