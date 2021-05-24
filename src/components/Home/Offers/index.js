@@ -1,8 +1,8 @@
 import React from 'react';
-import CardWrap from './OffersElements/Card';
 
 import { offersData } from './offersData';
 import { OffersWrap, OffersP, OffersH1, Wrapper } from './OffersElements/OffersElements';
+import Card from './OffersElements/Card';
 
 const Offers = () => {
   return (
@@ -14,7 +14,7 @@ const Offers = () => {
       </OffersP>
       <OffersWrap>
         {offersData.map((offer) => (
-          <CardWrap
+          <Card
             id={offer.id}
             image={offer.img}
             alt={offer.alt}
